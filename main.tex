@@ -1,0 +1,153 @@
+\documentclass[10pt,a4paper]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{fontawesome5}
+
+\newgeometry{left=1.75cm,right=1.75cm,top=1.5cm,bottom=1.5cm}
+
+\newcommand{\customsubsection}[1]{\vspace{2mm}\textcolor{color1}{\textbf{\large{#1}}}\vspace{1mm}}
+
+% Personal data
+\firstname{Şevval Belkıs}
+\familyname{DİKKAYA}
+\title{Resume}
+\phone[mobile]{+90-530-660-0532}
+\address{METU, Ankara, Turkey}
+\email{sevvalbelkis@gmail.com}
+\social[linkedin]{sevval-belkis-dikkaya}
+\extrainfo{
+    \faGithub \hspace{0.002cm} \href{https://github.com/sevvalbelkis}{sevvalbelkis}
+}
+\photo[64pt][0.4pt]{example-image}  % Replace 'example-image' with your photo file
+
+\begin{document}
+
+\makecvtitle
+
+\section{Profile Summary}
+\cvitem{}{Electrical \& Electronics Engineering student with a proven record in entrepreneurship and leadership. My goal is to apply my knowledge and skills in a dynamic technology organization.}
+
+% Education
+\section{Education}
+\cventry{2017--Present}{Bachelor of Science}{Middle East Technical University}{Ankara}{}{Major in Electrical \& Electronics Engineering}
+\cventry{2013--2017}{High School}{Nenehatun Science High School}{Ankara}{}{GPA: 97.46/100, 100\% scholarship}
+
+% General Achievements
+\section{General Achievements}
+\cvitem{2022}{Atılım University – TUGIAD Fikrinle İz Bırak Enterpreneurship Competition - 1st place (50.000 TL award)}
+\cvitem{2021}{TÜBİTAK 2242 Undergraduate Research Project Competitions - incentive award (4th)}
+\cvitem{2021}{TEKNOFEST 2021 Technology for Humanity, Disabled Friendly category finalist}
+\cvitem{2020-2021}{METU EEE Undergraduate Student Academic Research Program (STAR) - finalist}
+\cvitem{2017}{ÖSYM LYS MF ranking - 664 (University Entrance Exam in Turkey)}
+\cvitem{2017}{Atılım University Inter-High School Physics Competition - 1st Place}
+\cvitem{2021}{ALES SAY - 97/100}
+
+% Experience
+\section{Experience}
+\customsubsection{Entrepreneurship}
+
+\cventry{2022 - Present}{Co-Founder of Orion Robotics}{Start-up}{}{}{
+    \begin{itemize}
+        \item Established a startup based on Fener Mobile Robot with a 450,000 TL grant provided by TUBITAK 1512 (BIGG) Program.
+    \end{itemize}
+}
+\customsubsection{Internships}
+
+\cventry{2021,Summer}{Intern at Arçelik Global}{}{}{}{
+    \begin{itemize}
+        \item Improved communication between charging station and robot vacuum cleaner via IR sensors.
+    \end{itemize}
+}
+
+\customsubsection{Part-Time}
+
+\cventry{2021-2022}{Candidate Engineer at Arçelik Global}{Sensor Technologies Department}{}{}{
+    \begin{itemize}
+        \item Developed algorithms for the sensors (IMU, ToF) used in the robot vacuum cleaner project.
+    \end{itemize}
+}
+\customsubsection{Volunteering}
+
+\cventry{2020-Present}{Volunteer}{METU ROMER Research Center}{Ankara, Turkey}{}{
+    \begin{itemize}
+        \item Generated an algorithm for mapping an area with swarm robots.
+        \item Enabled local communication between swarm robots.
+        \item Developed force sensing with strain gauge sensors and filtering to obtain meaningful output for rehabilitation robots.
+    \end{itemize}
+}
+
+% Projects
+\section{Projects}
+\cventry{2019-Present}{FENER Mobile Robot (Team Leader)}{}{}{}{
+    \begin{itemize}
+        \item Led the development of a modular mobile platform for autonomous applications
+        \item Achieved 1st place at Atılım University – TUGIAD Fikrinle İz Bırak Enterpreneurship Competition 2022
+    \end{itemize}
+}
+\cventry{2021-2023}{Eflatun AI (Team Leader)}{}{}{}{
+    \begin{itemize}
+        \item Developed an artificial intelligence model that improved vehicle and people recognition accuracy by X%
+        \item Achieved 1st place in TEKNOFEST 2022 Artificial Intelligence in Transportation Competition
+    \end{itemize}
+}
+\cventry{2022-Present}{Eflatun UAV (Team Leader)}{}{}{}{
+    \begin{itemize}
+        \item Integrated artificial intelligence with an unmanned aerial vehicle for autonomous flight and tracking other UAVs.
+    \end{itemize}
+}
+
+% Skills
+\section{Skills}
+\customsubsection{Computer Skills}
+
+\cvitem{}{
+  \begingroup
+  \setlength{\tabcolsep}{12pt}
+  \begin{tabular}{lll}
+    C/C++ (Advanced) & Python (Intermediate) & MATLAB (Beginner) \\
+    Latex (Intermediate) & Siemens NX (Beginner) & Fusion 360 (Advanced) \\
+    Adobe Premiere Pro (Intermediate) & Ultimaker Cura (Beginner) & Arduino IDE (Advanced) \\
+    EasyEDA (Intermediate) & LTSpice (Intermediate) & Minitab (Beginner)
+  \end{tabular}
+  \endgroup
+}
+
+
+\customsubsection{Soft Skills}
+
+\cvitem{}{
+  \begingroup
+  \setlength{\tabcolsep}{10pt}
+  \begin{tabular}{lllll}
+    Entrepreneurship & Leadership & Presentation & Project Management & 
+  \end{tabular}
+  \endgroup
+}
+
+% Languages
+\section{Languages}
+\cvitem{Turkish}{Native}
+\cvitem{English}{Advanced}
+\cvitem{Russian}{Beginner}
+
+\section{Interests}
+\cvitem{}{
+  \begingroup
+  \setlength{\tabcolsep}{10pt}
+  \begin{tabular}{lllll}
+    Reading & Poetry & Cooking & Travelling & Photography \\
+    Clean Energy Sources & Electrical Machines & Video Editing & Robotics & Artificial Intelligence \\
+  \end{tabular}
+  \endgroup
+}
+
+\section{Activities}
+\cventry{2020-2022}{Board Member}{METU Machinery and Innovation Student Club}{}{}{}
+\cventry{2018-2020}{Member}{METU Machinery and Innovation Student Club}{}{}{}
+
+\end{document}
